@@ -6,7 +6,12 @@ const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
 
 const selectorsExampleSnippet = `
-<h1 class="font-size:24px color:blue hover:color:lightblue lg:font-size:32px">
+<h1 class="
+	font-size:24px
+	color:blue
+	hover:color:lightblue
+	lg:font-size:32px
+">
 	Hello World!🎉
 </h1>
 `.trim();

@@ -12,6 +12,7 @@ import Affiliate from './Affiliate.astro';
 import HpHeader from '@components/HpHeader.astro';
 import { getLangFromUrl, getLocalizedRoute, getStaticPathsForSupportedLanguages, useTranslations } from '@serverHelpers';
 import { queryStaticContent } from '@content';
+import { Image } from 'astro:assets';
 
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
